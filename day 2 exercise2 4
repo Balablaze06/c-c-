@@ -1,0 +1,18 @@
+#include<stdio.h>
+int main()
+{
+    char check;
+    scanf("%c",&check);
+    if((check >= 'a' && check <= 'z') || (check >= 'A' && check <= 'Z'))
+    {
+        printf("This is a Alphabet character");
+    }
+    else if(check >= '0' && check <= '9')
+    {
+        printf("This is  numeric");
+    }
+    else
+    {
+        printf("This is a special character");
+    }
+}
