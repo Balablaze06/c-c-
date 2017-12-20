@@ -32,11 +32,11 @@ int main()
     if(amount > 400)
     {
         surcharge = amount * 0.15;
-        printf("\nSurchage Amount : %.2f",surcharge);
+        printf("\nSurcharge Amount : %.2f",surcharge);
     }
     else
     {
-        printf("\nSurchage Amount : %.2f",surcharge);
+        printf("\nSurcharge Amount : %.2f",surcharge);
     }
     netamount =  amount + surcharge;
     printf("\nNet Amount Paid By the Customer : %.2f",netamount);
