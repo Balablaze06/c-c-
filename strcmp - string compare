@@ -1,0 +1,9 @@
+#include<stdio.h>
+#include<string.h>
+int main() {
+    int val;
+    char str[10], str1[10];
+    scanf("%s%s",str,str1);
+    val = strcmp(str,str1); /* comparing if equal returns '0'*/
+    printf("%d",val);
+}
