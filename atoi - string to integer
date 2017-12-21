@@ -1,0 +1,9 @@
+#include<stdio.h>
+#include<stdlib.h>
+int main() {
+   int number;
+   char str[15];
+   scanf("%s",str);
+   number = atoi(str);
+   printf("\nString is %s and the integer value is %d",str,number);
+}
