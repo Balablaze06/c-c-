@@ -1,0 +1,15 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+  clrscr();
+    enum {
+	monday, tuesday, wednesday, thursday, friday, saturday, sunday
+    } day;
+
+    day = monday;
+    if(day == monday)
+    {
+	printf("week start");
+    }
+}

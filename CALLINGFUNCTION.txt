@@ -1,0 +1,21 @@
+#include<stdio.h>
+#include<conio.h>
+char* abc();
+char* bbc();
+void main() {
+   clrscr();
+   printf("main executed");
+   printf("\n%s",abc());
+}
+char* abc()
+{
+    char b[10];
+    printf("\nabc executed");
+    printf("\n%s",bbc());
+    return "over";
+}
+char* bbc()
+{ 
+    printf("\nbbc executed");
+    return "hello";
+}

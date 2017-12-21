@@ -1,0 +1,18 @@
+#include<stdio.h>
+#include<conio.h>
+int abc(int *a);
+void main()
+{
+clrscr();
+int a,b;
+a=90;
+printf("first value %d",a);
+abc(&a);
+printf("\nvalue of a now %d",a);
+}
+int abc(int *a)
+{
+ ++(*a);
+ printf("\n%d",*a);
+ return *a;
+}

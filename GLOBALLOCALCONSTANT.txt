@@ -1,0 +1,21 @@
+#include<stdio.h>
+#include<conio.h>
+#define pie 3.14
+int a;
+void abc();
+void main()
+{
+clrscr();
+const int b = 60;
+int c;
+a=80;
+c=a>b ? a : b;
+printf("ternary value %d",c);
+printf("\nconstant value %d",b);
+abc();
+}
+void abc()
+{
+ printf("\nglobal variable %d",a);
+ printf("\n%f",pie);
+}

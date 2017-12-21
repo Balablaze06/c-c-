@@ -1,0 +1,16 @@
+#include<stdio.h>
+#include<conio.h>
+int abc(int a);
+void main()
+{
+clrscr();
+int a,b;
+a=90;
+b=abc(a);
+printf("\n%d",b);
+}
+int abc(int a)
+{
+ printf("\npassed value is %d",a);
+ return a+1;
+}
