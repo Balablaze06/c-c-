@@ -1,0 +1,9 @@
+#include<stdio.h>
+#include<stdlib.h>
+int main() {
+   long int number;
+   char str[15];
+   scanf("%s",str);
+   number = atol(str);
+   printf("\nString is %s and the integer value is %d",str,number);
+}
