@@ -1,0 +1,12 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+clrscr();
+char a[2][10] = { "bike", "car" };
+// printing the initialised array
+for(int i = 0; i<3; i++)
+{
+ printf("%s",a[i]);
+}
+}

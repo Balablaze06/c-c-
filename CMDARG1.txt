@@ -1,0 +1,19 @@
+#include<stdio.h>
+#include<conio.h>
+void main(int a, char *b[])
+{
+clrscr();
+int c;
+if(a >= 2)
+{
+ printf("the arguments supplied are:\n");
+ for(c = 1; c < a; c++)
+ {
+ printf("%s\t",b[c]);
+ }
+}
+else
+{
+printf("arguments are empty.\n");
+}
+}

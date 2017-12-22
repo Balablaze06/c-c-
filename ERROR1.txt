@@ -1,0 +1,17 @@
+#include<stdio.h>
+#include<conio.h>
+#include<errno.h>
+void main()
+{
+clrscr();
+FILE *a;
+a = fopen("fil.txt","r");
+/* checking for error number and error name
+  when the file is not exist */
+printf("error number %d ",errno);
+printf("\nerror name %s ",strerror(errno));
+perror("Messgage is perror");
+perror("message");
+fclose(a);
+getch();
+}

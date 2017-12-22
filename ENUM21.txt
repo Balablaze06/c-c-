@@ -1,0 +1,13 @@
+#include<stdio.h>
+enum State { a=0,b,c};
+enum State currState=2;
+
+enum State FindState()
+{
+return currState;
+}
+int main()
+{
+(FindState()!=a) ? printf("a") : printf("not");
+return 0;
+}

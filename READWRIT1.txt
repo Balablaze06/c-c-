@@ -1,0 +1,17 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+clrscr();
+char c;
+FILE *fptr, *fp;
+fptr = fopen("write.txt","r");
+fp = fopen("rewrite.txt","w+");
+while((c=fgetc(fptr))!=EOF)
+{
+  fprintf(fp,"%c",c);
+}
+fclose(fptr);
+fclose(fp);
+getch();
+}

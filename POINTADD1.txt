@@ -1,0 +1,22 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+clrscr();
+int a;
+int *ptr;
+int **ptr1;
+int ***ptr2;
+scanf("%d",&a);
+ptr=&a;
+ptr1= &ptr;
+ptr2 = &ptr1;
+printf("\nValue of A %d",a);
+printf("\naddress of A %x",a);
+printf("\naddress of ptr %x",ptr);
+printf("\nValue of ptr %d",*ptr);
+printf("\nvalue of ptr1 %d",**ptr1);
+printf("\naddress of ptr1 %x",ptr1);
+printf("\nValue of ptr2 %d",***ptr2);
+printf("\nAddress of ptr2 %x",ptr2);
+}

@@ -1,0 +1,21 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+clrscr();
+FILE *fptr;
+char c;
+fptr = fopen("file.txt","a+");
+fprintf(fptr, "\nfourth try for appending and reading");
+fputs("\nline written",fptr);
+
+/* appending into a file and reading & displaying the content
+   written into a file on the output console */
+rewind(fptr);
+while((c=fgetc(fptr))!=EOF)
+{
+printf("%c",c);
+}
+fclose(fptr);
+getch();
+}
