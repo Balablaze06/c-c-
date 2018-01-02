@@ -1,0 +1,41 @@
+/* printing 1 to 10 */
+
+#include <iostream>
+
+
+using namespace std;
+
+
+int main() 
+{
+	int x;
+  
+  for(x=1;x<11;x++)
+ 
+   {
+	cout<<x<<endl;
+
+    }
+
+}
+
+
+/* swapping the values from two variables */
+
+#include <iostream>
+
+
+using namespace std;
+
+
+int main() 
+{
+	
+int x,y;
+	
+cin>>x>>y;
+    
+x=x + y - (y=x); // swapping the values
+    
+cout<<x<<endl<<y;
+}
